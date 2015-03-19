@@ -52,7 +52,8 @@
     font-size: 13px;
 }
 
-.sidebar-nav li a:hover {
+.sidebar-nav li > a:hover,
+.sidebar-nav li[class^="level"]:not([class$="0"]):not([class$="1"]) > a:hover {
     color: #FFF;
     background: rgb(67,213,176);
 }
