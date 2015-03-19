@@ -45,7 +45,7 @@
     font-size: 13px;
 }
 
-.sidebar-nav li.level_2 > a {
+.sidebar-nav li[class^="level"]:not([class$="0"]):not([class$="1"]) > a {
     color: #AAA;
     text-indent: 48px;
     font-weight: normal;
